@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;300&family=Cabin&family=Foldit:wght@100&family=Jersey+25+Charted&family=Josefin+Sans:ital,wght@1,100&family=Lobster&family=Lora:ital@1&family=Major+Mono+Display&family=Ms+Madi&family=Oswald:wght@200&family=Permanent+Marker&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;1,8..144,100&family=Roboto:ital,wght@0,100;1,100&family=Rubik+Bubbles&family=Rubik+Moonrocks&family=Rubik+Puddles&family=Shadows+Into+Light&family=Splash&family=Tapestry&display=swap');
+
+body{
+    margin: 0;
+     /* background-image: url('./todolist.jpg'); */
+    font-family: "Major Mono Display", monospace;
+    background-size: 125em;
+    background-repeat: no-repeat;
+    background-color: rgba(91, 11, 240, 0.452);
+
+}
+
+.container{
+ 
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 50px;
+    color: rgb(46, 57, 58);
+   font-size: 25px;
+   font-weight: bold;
+}
+/* em,rem  16px*/ 
+.mainBlock {
+  margin-top: 50px;
+    width: 800px;
+    background-color:cadetblue;
+    box-shadow: 0px 0px 20px blue;
+    margin-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    opacity: 0.9;
+}
+.mainBlock div{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-column-gap: 5px;
+}
+.texIn {
+    height: 2em;
+    text-align: center;
+}
+
+.btn{
+    width: 20px;
+}
+
+.taskItem{
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 8fr 1fr 1fr;
+}
+
+.done{
+    text-decoration: line-through;
+    color: white;
+}
